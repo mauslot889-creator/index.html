@@ -8,7 +8,7 @@
 <meta property="og:title" content="MAUSLOT VIP EXCLUSIVE">
 <meta property="og:description" content="Tempat orang elit bermain dengan layanan VIP prioritas & keuntungan eksklusif">
 <meta property="og:image" content="https://i.ibb.co/21dhdXXc/123456.png">
-<meta property="og:url" content="https://mauslot889.github.io/try-html-wa/">
+<meta property="og:url" content="https://mauslot889-creator.github.io/">
 <meta property="og:type" content="website">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,13 +26,10 @@ body {
   height:100vh;
 }
 
-/* container */
 .container {
   animation: fadeIn 1.5s ease-in-out;
-  padding: 20px;
 }
 
-/* title */
 h1 {
   font-size: 42px;
   background: linear-gradient(90deg, #ffd700, #ffcc00, #ffd700);
@@ -40,19 +37,16 @@ h1 {
   -webkit-text-fill-color: transparent;
   letter-spacing: 2px;
   margin-bottom: 15px;
-  text-shadow: 0 0 15px rgba(255,215,0,0.3);
 }
 
-/* subtitle */
 p {
   font-size: 18px;
   color: #bfc7ff;
   line-height: 1.6;
 }
 
-/* loader */
 .loader {
-  margin: 30px auto;
+  margin-top: 30px;
   border: 4px solid rgba(255,255,255,0.1);
   border-top: 4px solid gold;
   border-right: 4px solid #4da6ff;
@@ -60,18 +54,6 @@ p {
   width: 45px;
   height: 45px;
   animation: spin 1s linear infinite;
-  box-shadow: 0 0 15px rgba(255,215,0,0.3);
-}
-
-/* glow effect */
-.container::after {
-  content: "";
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  background: radial-gradient(circle, rgba(77,166,255,0.2), transparent);
-  z-index: -1;
-  filter: blur(60px);
 }
 
 @keyframes spin {
@@ -80,8 +62,8 @@ p {
 }
 
 @keyframes fadeIn {
-  from {opacity:0; transform: translateY(20px);}
-  to {opacity:1; transform: translateY(0);}
+  from {opacity:0;}
+  to {opacity:1;}
 }
 </style>
 
@@ -104,7 +86,6 @@ Member prioritas dengan layanan 24 jam
 </div>
 
 <script>
-// DELAY 6 DETIK
 setTimeout(function(){
   window.location.href = "https://wa.me/6285124502214?text=Bonus%20yang%20tersedia%20saat%20ini";
 }, 6000);
